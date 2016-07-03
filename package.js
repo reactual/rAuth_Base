@@ -1,8 +1,8 @@
 Package.describe({
-  summary: 'Accounts Templates unstyled.',
-  version: '1.14.2',
-  name: 'useraccounts:unstyled',
-  git: 'https://github.com/meteor-useraccounts/unstyled.git',
+  summary: 'Reactual User Accounts Auth Base.',
+  version: '1.0.0',
+  name: 'reactual:auth-base',
+  git: 'https://github.com/reactual/rAuth_Base.git',
 });
 
 Package.on_use(function(api, where) {
@@ -69,7 +69,7 @@ Package.on_use(function(api, where) {
 
 Package.on_test(function(api) {
   api.use([
-    'useraccounts:unstyled',
+    'reactual:auth-base',
     'useraccounts:core@1.14.2',
   ]);
 
